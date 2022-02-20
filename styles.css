@@ -1,6 +1,6 @@
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 10px;
   height: 300px; /* Should be removed. Only for demonstration */
 }
@@ -12,4 +12,22 @@
   clear: both;
 }
 
+body {
+	text-align: center;
+	align-items: center;
+	 font-family: "Papyrus", Fantasy;
+}
+
+h1 {
+	font-family: Helvetica, sans-serif;
+}
+
+.footer {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 20px;
+        height: 100px;
+
+}
 
